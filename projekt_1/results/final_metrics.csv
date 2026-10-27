@@ -1,0 +1,13 @@
+Zadanie,Metoda,SNE,PSNR,SSIM,LPIPS
+2.2 Odszumianie,degraded_gaussian_noise_0_01,19.3707,40.0674,0.9722,0.0089
+2.2 Odszumianie,denoise_bilateral_gaussian_noise_0_01,319.7216,28.1745,0.8609,0.1133
+2.2 Odszumianie,resunet_gaussian_noise_0_01,17.6991,40.6451,0.9820,0.0084
+2.2 Odszumianie,degraded_gaussian_noise_0_03,171.6831,30.5941,0.8372,0.0704
+2.2 Odszumianie,denoise_bilateral_gaussian_noise_0_03,614.4599,25.3580,0.7722,0.1775
+2.2 Odszumianie,resunet_gaussian_noise_0_03,94.8727,33.4182,0.9363,0.0539
+2.3 Deblurowanie,degraded_gaussian_blur_3_x_3,358.6232,28.3097,0.9038,0.1858
+2.3 Deblurowanie,richardson_lucy_gaussian_blur_3_x_3,844.3211,24.2112,0.9265,0.1296
+2.3 Deblurowanie,resunet_gaussian_blur_3_x_3,145.0986,32.2900,0.9604,0.0239
+2.3 Deblurowanie,degraded_gaussian_blur_5_x_5,599.6273,26.0477,0.8367,0.2979
+2.3 Deblurowanie,richardson_lucy_gaussian_blur_5_x_5,1199.7406,22.6378,0.8771,0.2825
+2.3 Deblurowanie,resunet_gaussian_blur_5_x_5,214.8825,30.5679,0.9407,0.0549
